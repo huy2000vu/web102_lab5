@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 const api_key = import.meta.env.VITE_APP_API_KEY;
 import CoinInfo from "./components/CoinInfo";
+import "./App.css";
 export default function App() {
   const [list, setList] = useState(null);
   const [filteredResults, setFilteredResults] = useState([]);
